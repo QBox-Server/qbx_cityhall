@@ -1,8 +1,8 @@
 return {
     cityhalls = {
         {
-            coords = vec3(-265.0, -963.6, 31.2),
-            showBlip = true,
+            coords = vec3(230.18, -423.02, 47.92),
+            showBlip = false,
             blip = {
                 label = 'City Services',
                 shortRange = true,
@@ -32,7 +32,7 @@ return {
     },
 
     employment = {
-        enabled = true, -- Set to false to disable the employment menu
+        enabled = false, -- Set to false to disable the employment menu
         jobs = {
             unemployed = 'Unemployed',
             trucker = 'Trucker',
